@@ -1,0 +1,39 @@
+# Maven build outputs
+target/
+*.log
+*.xml.bak
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local Maven repository (not needed in repo)
+.m2/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Allure results (generated during test runs)
+allure-results/
+allure-report/
+
+# Cucumber reports
+cucumber-reports/
+
+# WebDriverManager cache
+~/.cache/selenium/
+
+# Appium-specific files (if applicable)
+appium.log
+node_modules/
